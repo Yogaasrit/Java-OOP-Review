@@ -1,0 +1,41 @@
+class Student{
+  String name;
+  int rollNo;
+  String dept;
+
+  public void printStudentDetails(Student students[]){
+    for(Student candidate : students)
+    {
+      System.out.println(candidate.name + " " + candidate.rollNo+" "+candidate.dept);
+    }
+  }
+}
+
+
+class Main{
+  public static void main(String[] args)
+  {
+    Student student1 =  new Student();
+    student1.name = "Alexa";
+    student1.rollNo = 01;
+    student1.dept = "CSE";
+
+    Student student2 =  new Student();
+    student2.name = "Bug";
+    student2.rollNo = 02;
+    student2.dept = "EEE";
+
+    Student student3 =  new Student();
+    student3.name = "cookie";
+    student3.rollNo = 03;
+    student3.dept = " ECE";
+
+    Student students[] = new Student[3];
+    students[0] = student1;
+    students[1] = student2;
+    students[2] = student3;
+
+    Student obj = new Student();
+    obj.printStudentDetails(students);
+  }
+}
