@@ -1,0 +1,21 @@
+PackageDemo1 and PackageDemo2 are example for Access Modifiers.
+Types:
+1. Public
+2. Private
+3. Protected
+4. Default.
+
+Public
+------
+  1. Any class from any package can access.
+  2. Provided public keyword should be present.
+  3. Also package should be imported.
+
+Private
+-------
+  1. Only particular class can access.
+
+Protected
+-------
+  1. Other package can also access the protected member and methods
+     only and only it extends that particular class.

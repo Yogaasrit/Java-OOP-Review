@@ -15,9 +15,6 @@ class Student{
       this.rollNo = rollNo;
       this.dept = dept;
   }
-  public Student(){
-    
-  }
 }
 
 
@@ -44,7 +41,7 @@ class Main{
     students[1] = student2;
     students[2] = student3;
 
-    Student obj = new Student();
-    obj.printStudentDetails(students);
+    // Student obj = new Student();
+    student1.printStudentDetails(students);
   }
 }
